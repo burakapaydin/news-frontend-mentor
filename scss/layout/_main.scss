@@ -120,7 +120,7 @@ main {
   }
 }
 
-@media (max-width: $mobile) {
+@media (max-width: $tablet) {
   #hero .hero-text {
     flex-direction: column;
     & h1 {
