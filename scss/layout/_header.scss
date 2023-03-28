@@ -75,8 +75,14 @@ header {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-@media (min-width: 375px) {
+@media (min-width: $mobile) {
   .hamburger-menu {
     display: none;
+  }
+}
+
+@media (max-width: $tablet) {
+  .hamburger-menu {
+    display: flex;
   }
 }
