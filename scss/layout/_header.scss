@@ -17,7 +17,7 @@ header {
 .mobile-menu {
   display: none;
 }
-@media (min-width: $mobile) {
+@media (max-width: $mobile) {
   header nav > ul {
     display: none;
   }
@@ -25,7 +25,7 @@ header {
     display: block;
   }
 }
-@media (max-width: $mobile) {
+@media (max-width: $tablet) {
   header nav > ul {
     display: none;
   }
